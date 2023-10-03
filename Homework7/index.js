@@ -12,9 +12,7 @@ class Book {
     this.pages = pages;
   }
   displayInfo = () =>
-    console.log(
-      `Book: "${this.title}", Author: "${this.author}", Pages: ${this.pages}`
-    );
+    console.log(`Book: "${this.title}", Author: "${this.author}", Pages: ${this.pages}`);
 }
 
 const book = new Book("BookName1", "Author1", 123);
